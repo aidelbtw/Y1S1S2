@@ -19,5 +19,6 @@ public class L6Q2TestIntMyStack {
         while (!stack.isEmpty()) {
             System.out.println(stack.pop());
         }
+        input.close();
     }
 }

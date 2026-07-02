@@ -1,7 +1,6 @@
 import java.util.PriorityQueue;
 
-public class q2 {
-    Q2 : public class Q2 {
+public class T8Q2 {
      public static void main(String[] args) {
         PriorityQueue<String> pq1 = new PriorityQueue<>();  
         pq1.add("George");
@@ -11,6 +10,7 @@ public class q2 {
         pq1.add("Kevin");
         pq1.add("Michael");
         System.out.println("First Priority Queue: "+pq1);
+
         PriorityQueue<String> pq2 = new PriorityQueue<>();  
         pq2.add("George");
         pq2.add("Katie");
@@ -18,17 +18,18 @@ public class q2 {
         pq2.add("Michelle");
         pq2.add("Ryan");
         System.out.println("Second Priority Queue: "+pq2);
-        System.out.println("Intersection for 2 PQs:");
+
+        System.out.println("\nIntersection for 2 PQs:");
         for (String element : pq1){
             if (pq2.contains(element))
                 System.out.print(element + " ");
         }
-        System.out.println("\nDifference for 2 PQs:");
+        System.out.println("\n\nDifference for 2 PQs:");
         for (String element : pq1){
             if (!pq2.contains(element))
                 System.out.print(element + " ");
         }
-        System.out.println("\nUnion for 2 PQs:");
+        System.out.println("\n\nUnion for 2 PQs:");
         for (String element : pq1){
             System.out.print(element + " ");
         }
@@ -37,5 +38,5 @@ public class q2 {
                 System.out.print(element + " ");
         }
         System.out.println();
-   }
+    }
 }
