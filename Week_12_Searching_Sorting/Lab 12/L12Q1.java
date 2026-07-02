@@ -92,7 +92,7 @@ public class L12Q1 {
         }
     }
 
-    public void insertionSort(int[] arr){   //Will use i for the elemt youre moving, k will be used to look at spots that are before i
+    public void insertionSort(int[] arr){   //Will use i for the element youre moving, k will be used to look at spots that are before i
         int n = arr.length;                 //it will go through all at k and finds if any suitable spots, and it moves all the spots
         for (int i = 0; i < n ; i++){       //by 1 forward to make space in case thats the right spot
             int currentElement = arr[i];
@@ -119,7 +119,7 @@ public class L12Q1 {
         }
     }
 
-    public void merge(int[] arr1, int[] arr2, int[] temp){
+    public void merge(int[] arr1, int[] arr2, int[] temp){ //already sorted recurively, now final sort
         int current1 = 0 ;
         int current2 = 0 ;
         int current3 = 0 ;
@@ -169,5 +169,4 @@ public class L12Q1 {
         }
         return -1;                  // not found
     }
-}
 }

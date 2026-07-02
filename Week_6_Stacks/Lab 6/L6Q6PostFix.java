@@ -2,7 +2,7 @@ import java.util.Stack;
 
 public class L6Q6PostFix {
     public static void main(String[] args) {
-        String expression = "3 4 + 2 *"; // means (3 + 4) * 2 = 14
+        String expression = "3 4 + 2 /"; // means (3 + 4) * 2 = 14
         System.out.println("Result: " + evaluatePostfix(expression));
     }
 
@@ -19,7 +19,7 @@ public class L6Q6PostFix {
                 stack.push(result);
             } else {
                 // it's a number
-                stack.push(Integer.parseInt(token));
+                stack.push(Boolean.parseBoolean(token));
             }
         }
 
