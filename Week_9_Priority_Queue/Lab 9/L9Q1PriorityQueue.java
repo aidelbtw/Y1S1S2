@@ -29,7 +29,7 @@ public class L9Q1PriorityQueue {
 
         System.out.println("Current size: " + pq.size());
 
-        System.out.println("Removing all elements:");
+        System.out.println("Removing all elements....");
         while (!pq.isEmpty()) {
             System.out.println("Removed: " + pq.poll());
         }
