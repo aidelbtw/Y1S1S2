@@ -29,6 +29,9 @@ public class L4Q3TestLinkedList {
         list.set(1, "a");
         list.set(2, "v");
         list.set(3, "a");
+        list.addLast("L");
+        list.addLast("B");
+        list.addLast("W");
 
         list.print();
 

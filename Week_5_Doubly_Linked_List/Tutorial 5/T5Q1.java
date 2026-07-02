@@ -1,7 +1,7 @@
-//1a. Lines 10-13: is the scenario when index is 0, put the head at temp, which allos head to be replaced with e
+//1a. Lines 10-13: is the scenario when index is 0, put the head at temp, which allows head to be replaced with e
 //    Meaning when you return temp.element, it returns the temp element which was the original head element
 //
-//    Lines 15-21: is the scenariio when it is not the last index or more, if will iterate through the index stated and will loop
+//    Lines 15-21: is the scenario when it is not the last index or more, if will iterate through the index stated and will loop
 //    until just before the target, which will be put in temp, thus you are able to switch it out with new element
 //    and you can then return the original element that you put in temp
 //

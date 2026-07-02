@@ -235,7 +235,7 @@ public class L4Q2MyLinkedList<E> {
         L4Q1Node<E> back = head;
         L4Q1Node<E> front = head;
 
-        while (front != null && front.next != null) {
+        while (front != null && front.next != null) { //pointers move at different speed, the first moves as normal, the second moves at twice
             back = back.next;
             front = front.next.next;
         }

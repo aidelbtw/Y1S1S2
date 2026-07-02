@@ -47,7 +47,7 @@ public class L3Q1<T> implements BagInterface<T> {
         T result = null;
         if(!isEmpty() && (givenIndex>=0)){
             result = bag[givenIndex];
-            numberofEntries--;
+            numberofEntries--;  //it replaces what you take out, with the very last entry
 
             bag[givenIndex] = bag[numberofEntries];
             bag[numberofEntries] = null;
